@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div>
-      <section className="text-black body-font justify-center">
+      <section className="text-black body-font justify-center scroll-smooth">
         <div className="container mx-auto flex px-5 py-28 md:flex-row flex-col items-center">
           <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <p className="mb-8 leading-relaxed opacity-50">
@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="w-full justify-center">
               <div className="relative">
                 <img
-                  className="object-cover object-center rounded-xl h-40 w-full my-4"
+                  className="object-cover object-center rounded-xl h-40 w-full my-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
                   alt="hero"
                   src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
@@ -55,14 +55,14 @@ const HeroSection = () => {
               </div>
               <div>
                 <img
-                  className="object-cover object-center rounded-xl h-40 w-full my-4"
+                  className="object-cover object-center rounded-xl h-40 w-full my-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
                   alt="hero"
                   src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
               </div>
               <div>
                 <img
-                  className="object-cover object-center rounded-xl h-40 w-full my-4"
+                  className="object-cover object-center rounded-xl h-40 w-full my-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
                   alt="hero"
                   src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
                 />

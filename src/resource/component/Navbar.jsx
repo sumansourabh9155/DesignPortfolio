@@ -31,7 +31,7 @@ const Navbar = () => {
         isScrolled ? "translate-y-0" : "-translate-y-20"
       }`}
     >
-      <header className="w-full text-gray-700 shadow-sm body-font fixed item-center bg-white">
+      <header className="lg:pr-28 w-full text-gray-700 shadow-sm body-font fixed item-center bg-white">
         <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
           <div className="flex gap-40"><a
             href="#_"
@@ -43,7 +43,7 @@ const Navbar = () => {
           </a>
           <div className="md:hidden">
             <button
-              className="flex items-center justify-center p-2 text-gray-900 transition-colors duration-200 rounded focus:outline-none hover:bg-gray-200"
+              className="flex items-center justify-center p-2 text-gray-900 transition-colors duration-200 rounded focus:outline-none hover:bg-gray-200 "
               onClick={toggleMenu}
             >
               <svg
@@ -107,7 +107,7 @@ const Navbar = () => {
               </a>
               <a
               href="#_"
-              className="px-4 py-2 text-xs font-bold text-white uppercase transition-all duration-150 bg-black rounded shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
+              className="px-4 py-2 text-xs font-bold text-white uppercase bg-black rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
             >
               Sign Up
             </a>
@@ -116,7 +116,7 @@ const Navbar = () => {
           <div className="items-center hidden md:flex h-full">
             <a
               href="#_"
-              className="px-4 py-2 text-xs font-bold text-white uppercase transition-all duration-150 bg-black rounded shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
+              className="px-4 py-2 text-xs font-bold text-white uppercase bg-black rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
             >
               Sign Up
             </a>

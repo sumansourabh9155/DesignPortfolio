@@ -4,7 +4,7 @@ import suman from "../../assets/images/suman.jpg";
 export const AboutMe = () => {
 	return (
 		<div>
-			<div class="container flex flex-col px-5 py-4 mx-auto  md:py-16 md:flex-row md:items-center ">
+			<div class="container flex flex-col px-5 py-4 mx-auto  md:py-16 md:flex-row md:items-center scroll-smooth">
 				<div class="flex items-center justify-center w-full md:w-1/2">
 					<img
 						class="object-cover h-{100px}  rounded-2xl shadow-md shadow-gray-200"
