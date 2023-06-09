@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../Component/Navbar'
 import HeroSection from '../component/HeroSection'
 import Tech from '../component/Tech'

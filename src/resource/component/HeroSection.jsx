@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroSection = () => {
   return (
     <div>
@@ -38,7 +36,7 @@ const HeroSection = () => {
                   alt="hero"
                   src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
-                <div className="bg-white rounded-full absolute">
+                {/* <div className="bg-white rounded-full absolute">
                   <svg
                     width="32"
                     height="28"
@@ -51,7 +49,7 @@ const HeroSection = () => {
                       fill="black"
                     />
                   </svg>
-                </div>
+                </div> */}
               </div>
               <div>
                 <img

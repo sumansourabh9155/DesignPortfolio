@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(true);
@@ -32,7 +32,7 @@ const Navbar = () => {
       }`}
     >
       <header className="lg:pr-28 w-full text-gray-700 shadow-sm body-font fixed item-center bg-white">
-        <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
+        <div className="container flex flex-col p-6 mx-auto md:flex-row">
           <div className="flex gap-40"><a
             href="#_"
             className="mb-4 font-bold text-2xl text-gray-900 title-font md:mb-0"
@@ -63,7 +63,7 @@ const Navbar = () => {
             </button>
           </div>
           </div>
-          <nav className="hidden md:flex md:flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
+          <nav className="hidden md:flex md:flex-wrap items-center justify-between pl-24 text-base md:ml-auto md:mr-auto">
             <a
               href="#_"
               className="mr-5 font-medium hover:text-gray-900"
